@@ -435,12 +435,26 @@ const questions = [
   },
 ]
 
-let currentQuestionIndex = 0;
-let answerContainer = document.getElementById('answer-container');
-let questionContainer = document.getElementById('question-container');
-let nextButton = document.getElementById('next-button');
-let answerText = document.getElementById('answer-text');
-let shuffledQuestions = [...questions]; // 질문 복사본을 만들어서 섞기
+    // 변수 초기화
+    let selectedChapters = [];
+    let currentQuestions = [];
+    let wrongQuestions = [];
+    let currentQuestionIndex = 0;
+    let correctCount = 0;
+    let wrongCount = 0;
+    let isReviewMode = false;
+
+
+    // DOM 요소 참조
+    const quizSettings = document.getElementById('quiz-settings');
+    const quizArea = document.getElementById('quiz-area');
+    const chapterButtons = document.querySelectorAll('.chapter-btn');
+    const startButton = document.getElementById('start-button');
+    const questionContainer = document.getElementById('question-container');
+    const answerContainer = document.getElementById('answer-container');
+    const answerText = document.getElementById('answer-text');
+    const nextButton = document.getElementById('next-button');
+    const finishButton
 
 function shuffleQuestions() {
     for (let i = shuffledQuestions.length - 1; i > 0; i--) {
