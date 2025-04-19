@@ -1,26 +1,74 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>컴퓨터 개론 퀴즈</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="style.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>컴퓨터 개론 퀴즈</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .chapter-btn.selected {
+      background-color: #3b82f6;
+      color: white;
+    }
+    .quiz-area {
+      display: none;
+    }
+    .quiz-settings {
+      display: block;
+    }
+    .hidden {
+      display: none;
+    }
+  </style>
 </head>
 <body class="bg-gray-100 font-sans">
-    <div id="root" class="container mx-auto p-4">
-        <h1 class="text-2xl font-bold mb-4">컴퓨터 개론 퀴즈</h1>
-        <div id="question-container" class="bg-white shadow-md rounded p-4 mb-4">
-            <!-- Question and options will be inserted here -->
-        </div>
-        <div id="answer-container" class="hidden bg-green-100 border-green-400 text-green-700 px-4 py-3 rounded relative mb-4" role="alert">
-            <strong class="font-bold">정답!</strong>
-            <span class="block sm:inline" id="answer-text"></span>
-        </div>
-        <button id="next-button" class="hidden bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">다음 문제</button>
+  <div id="root" class="container mx-auto p-4 max-w-2xl">
+    <h1 class="text-3xl font-bold mb-6 text-center">컴퓨터 개론 퀴즈</h1>
+    
+    <!-- 설정 영역 -->
+    <div id="quiz-settings" class="quiz-settings bg-white shadow-md rounded p-6 mb-4">
+      <h2 class="text-xl font-semibold mb-4">출제 범위 선택</h2>
+      <div class="grid grid-cols-3 gap-2 mb-6">
+        <button class="chapter-btn border border-gray-300 rounded py-2 px-4 font-medium hover:bg-blue-100" data-chapter="0장">0장</button>
+        <button class="chapter-btn border border-gray-300 rounded py-2 px-4 font-medium hover:bg-blue-100" data-chapter="1장">1장</button>
+        <button class="chapter-btn border border-gray-300 rounded py-2 px-4 font-medium hover:bg-blue-100" data-chapter="2장">2장</button>
+        <button class="chapter-btn border border-gray-300 rounded py-2 px-4 font-medium hover:bg-blue-100" data-chapter="3장">3장</button>
+        <button class="chapter-btn border border-gray-300 rounded py-2 px-4 font-medium hover:bg-blue-100" data-chapter="4장">4장</button>
+        <button class="chapter-btn border border-gray-300 rounded py-2 px-4 font-medium hover:bg-blue-100" data-chapter="모두">모두</button>
+      </div>
+      <button id="start-button" class="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded">퀴즈 시작하기</button>
     </div>
-    <script src="questions.js"></script>
-    <script src="script.js"></script>
-</body>
-</html>
+    
+    <!-- 퀴즈 영역 -->
+    <div id="quiz-area" class="quiz-area">
+      <div class="flex justify-between mb-4">
+        <div class="stats">
+          <span class="font-medium">맞춘 문제: <span id="correct-count">0</span></span>
+        </div>
+        <div class="stats">
+          <span class="font-medium">틀린 문제: <span id="wrong-count">0</span></span>
+        </div>
+        <div class="stats">
+          <span class="font-medium">남은 문제: <span id="remaining-count">0</span></span>
+        </div>
+      </div>
+      
+      <div id="question-container" class="bg-white shadow-md rounded p-4 mb-4">
+        <!-- 문제 내용이 여기에 표시됩니다 -->
+      </div>
+      
+      <div id="answer-buttons" class="mb-4">
+        <button id="correct-button" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded mr-2">맞았어요</button>
+        <button id="wrong-button" class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded">틀렸어요</button>
+      </div>
+      
+      <div id="answer-container" class="hidden bg-green-100 border-green-400 text-green-700 px-4 py-3 rounded mb-4">
+        <strong class="font-bold">정답!</strong>
+        <span class="block sm:inline" id="answer-text"></span>
+      </div>
+      
+      <button id="next-button" class="hidden w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-4">다음 문제</button>
+      <button id="finish-button" class="hidden w-full bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded mb-4">틀린 문제 다시 풀기</button>
+      <button id="restart-button" class="hidden w-full bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">처음으로 돌아가기</button>
+    </div>
+  </div>
