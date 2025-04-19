@@ -29,6 +29,16 @@ const resultWrongEl = document.getElementById('result-wrong');
 const restartQuizButton = document.getElementById('restart-quiz');
 const retryWrongButton = document.getElementById('retry-wrong');
 
+// 모두 선택 버튼
+const selectAllButton = document.getElementById('select-all');
+
+// 모두 선택 버튼 이벤트 리스너
+selectAllButton.addEventListener('click', () => {
+    chapterCheckboxes.forEach(checkbox => {
+        checkbox.checked = true;
+    });
+});
+
 // 퀴즈 시작
 startQuizButton.addEventListener('click', () => {
     const selectedChapters = Array.from(chapterCheckboxes)
