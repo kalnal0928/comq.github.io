@@ -97,7 +97,11 @@ function showCurrentQuestion() {
 checkAnswerButton.addEventListener('click', () => {
     if (!isAnswerRevealed) {
         const q = selectedQuestions[currentQuestionIndex];
-        answerText.innerText = q.answer;
+        
+        // 답변 텍스트를 줄바꿈 처리
+        let formattedAnswer = q.answer.replace(/,\s*/g, ',<br>');
+        answerText.innerHTML = formattedAnswer; // innerHTML 사용
+        
         answerContainer.classList.remove('hidden');
         checkAnswerButton.classList.add('hidden');
         markCorrectButton.classList.remove('hidden');
