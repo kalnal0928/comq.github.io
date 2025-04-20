@@ -181,7 +181,7 @@ const questions = [
   {
     chapter: '2장',
     question: '1Kbps (Kilo-bps)는 몇 bps인가요?',
-    answer: '1,000 bps',
+    answer: '1000 bps',
   },
   {
     chapter: '2장',
