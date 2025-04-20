@@ -302,7 +302,7 @@ const questions = [
   {
     chapter: '3장',
     question: '다음 중 같은 계열의 운영체제가 아닌 것은?',
-    answer: '문제에 운영체제 미제공/ 예시: 윈도우/ 리눅스/ 맥OS 등',
+    answer: '문제에 운영체제 미제공/ 예시: 윈도우/ 리눅스/ 맥OS 등, 유닉스 계열이 아닌 운영체제:, Microsoft Windows/ MS-DOS/ IBM z_OS/ OpenVMS/ AmigaOS/ BeOS_Haiku/ OS_2/ CP_M 등',
   },
   {
     chapter: '3장',
