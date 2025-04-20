@@ -232,7 +232,7 @@ const questions = [
   {
     chapter: '2장',
     question: '기계 주기의 3단계는?',
-    answer: '인출(fetch), 해석(decode), 실행(execute)',
+    answer: '인출(fetch)-> 해석(decode)-> 실행(execute)',
   },
   {
     chapter: '2장',
