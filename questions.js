@@ -394,7 +394,7 @@ const questions = [
   {
     chapter: '4장',
     question: 'HTML 파일에서 다른 문서나 내용에 대한 하이퍼링크를 추가하는 태그는?',
-    answer: '<a> 태그',
+    answer: '< a > 태그',
   },
   {
     chapter: '4장',
