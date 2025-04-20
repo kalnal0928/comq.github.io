@@ -222,7 +222,7 @@ const questions = [
   {
     chapter: '2장',
     question: '다음 기계어 타입은?',
-    answer: '문제에 타입 미제공/ 예시: RISC, CISC 등',
+    answer: '문제에 타입 미제공/ 예시: RISC, CISC 등, RISC: 단순/ 빠름/ 효율적인 소수의 명령/ 적은 제작 비용/ 저전력 필요, CISC: 편리/ 강력한 다수의 명력/ 많은 제작비용/ 고전력',
   },
   {
     chapter: '2장',
