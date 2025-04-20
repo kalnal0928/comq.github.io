@@ -202,7 +202,7 @@ const questions = [
     chapter: '2장',
     question:
       'CPU와 메모리가 아무리 빨라져도, 작업 처리 방식에 따라서 비효율이 발생하는 현상은?',
-    answer: '병목현상 (Bottleneck)',
+    answer: '병목현상 (Bottleneck)_폰노이만 병목현상',
   },
   {
     chapter: '2장',
