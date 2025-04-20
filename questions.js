@@ -272,7 +272,7 @@ const questions = [
   {
     chapter: '3장',
     question: '프로세스에게 할당된 시간이 끝나면 발생하는 것은?',
-    answer: '인터럽트 -> 프로세스 스위치(5주차 p.28',
+    answer: '인터럽트 -> 프로세스 스위치(5주차 p.28)',
   },
   {
     chapter: '3장',
