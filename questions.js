@@ -23,7 +23,7 @@ const questions = [
   {
     chapter: '0장',
     question: '컴퓨터과학의 7대 주제가 아닌 것은?',
-    answer: '알고리즘, 추상화, 창의성, 데이터, 프로그래밍, 인터넷, 사회적 영향 이외의 것',
+    answer: '알고리즘/ 추상화/ 창의성/ 데이터/ 프로그래밍/ 인터넷/ 사회적 영향 이외의 것',
   },
   {
     chapter: '0장',
@@ -50,7 +50,7 @@ const questions = [
     chapter: '0장',
     question:
       '인터넷에 연결된 컴퓨터를 통해 정보를 공유하는 공간으로, 1990년 팀 버너스-리가 만든 것은?',
-    answer: '월드와이드웹 (World Wide Web, WWW)',
+    answer: '월드와이드웹 (World Wide Web/ WWW)',
   },
   {
     chapter: '1장',
@@ -65,7 +65,7 @@ const questions = [
   {
     chapter: '1장',
     question: "'임의의 순서로 셀 영역에 접근할 수 있는 메모리'를 가리키는 용어는?",
-    answer: 'RAM (임의 접근 메모리, Random Access Memory)',
+    answer: 'RAM (임의 접근 메모리/ Random Access Memory)',
   },
   {
     chapter: '1장',
@@ -135,17 +135,17 @@ const questions = [
   {
     chapter: '1장',
     question: '다음 2진수를 16진법으로 표현하면?',
-    answer: '문제에 2진수 미제공, 예시: 10110101 → 0xB5',
+    answer: '문제에 2진수 미제공/ 예시: 10110101 → 0xB5',
   },
   {
     chapter: '1장',
     question: '다음 2진수를 10진수로 변환하면?',
-    answer: '문제에 2진수 미제공, 예시: 11001 → 25',
+    answer: '문제에 2진수 미제공/ 예시: 11001 → 25',
   },
   {
     chapter: '1장',
     question: '다음의 숫자 표기법은?',
-    answer: '문제에 표기법 미제공, 예시: 0x64 → 16진법',
+    answer: '문제에 표기법 미제공/ 예시: 0x64 → 16진법',
   },
   {
     chapter: '1장',
@@ -217,17 +217,17 @@ const questions = [
   {
     chapter: '2장',
     question: '컴퓨터 구조에서 다음의 장치는?',
-    answer: '문제에 장치 미제공, 예시: 중앙처리장치 → CPU',
+    answer: '문제에 장치 미제공/ 예시: 중앙처리장치 → CPU',
   },
   {
     chapter: '2장',
     question: '다음 기계어 타입은?',
-    answer: '문제에 타입 미제공, 예시: RISC, CISC 등',
+    answer: '문제에 타입 미제공/ 예시: RISC, CISC 등',
   },
   {
     chapter: '2장',
     question: '다음 중 기계 명령의 종류가 아닌 것은?',
-    answer: '문제에 명령 미제공, 예시: 데이터 전송, 연산, 제어 외의 것',
+    answer: '문제에 명령 미제공/ 예시: 데이터 전송/ 연산/ 제어 외의 것',
   },
   {
     chapter: '2장',
@@ -252,12 +252,12 @@ const questions = [
   {
     chapter: '3장',
     question: "'운영체제'에 대한 설명으로 틀린 것은?",
-    answer: '문제에 선택지 미제공, 예시: "운영체제는 하드웨어가 아니다" 등',
+    answer: '문제에 선택지 미제공/ 예시: "운영체제는 하드웨어가 아니다" 등',
   },
   {
     chapter: '3장',
     question: '커널이 관리하는 것이 아닌 것은?',
-    answer: '애플리케이션 소프트웨어 (커널은 메모리, CPU, 장치 등을 관리함)',
+    answer: '애플리케이션 소프트웨어 (커널은 메모리/ CPU/ 장치 등을 관리함)',
   },
   {
     chapter: '3장',
@@ -283,7 +283,7 @@ const questions = [
   {
     chapter: '3장',
     question: "운영체제가 '보안'을 위해 하는 작업이 아닌 것은?",
-    answer: '프로그램의 디자인 (보안은 접근 제어, 인증, 암호화 등)',
+    answer: '프로그램의 디자인 (보안은 접근 제어/ 인증/ 암호화 등)',
   },
   {
     chapter: '3장',
@@ -293,17 +293,17 @@ const questions = [
   {
     chapter: '3장',
     question: '운영체제의 작업 처리 방식 중에서 다음에 해당하는 것은?',
-    answer: '문제에 방식 미제공, 예시: 일괄처리, 대화식, 시분할 등',
+    answer: '문제에 방식 미제공/ 예시: 일괄처리/ 대화식/ 시분할 등',
   },
   {
     chapter: '3장',
     question: '운영체제의 구성요소 중 다음에 해당하는 것은?',
-    answer: '문제에 구성요소 미제공, 예시: 커널, 사용자 인터페이스 등',
+    answer: '문제에 구성요소 미제공/ 예시: 커널/ 사용자 인터페이스 등',
   },
   {
     chapter: '3장',
     question: '다음 중 같은 계열의 운영체제가 아닌 것은?',
-    answer: '문제에 운영체제 미제공, 예시: 윈도우, 리눅스, 맥OS 등',
+    answer: '문제에 운영체제 미제공/ 예시: 윈도우/ 리눅스/ 맥OS 등',
   },
   {
     chapter: '3장',
@@ -334,7 +334,7 @@ const questions = [
   {
     chapter: '4장',
     question: "네트워크의 분류 중에서 'LAN'으로 불리며, 건물이나 캠퍼스 범위를 가지는 통신망은?",
-    answer: '근거리 통신망 (Local Area Network, LAN)',
+    answer: '근거리 통신망 (Local Area Network/ LAN)',
   },
   {
     chapter: '4장',
@@ -385,7 +385,7 @@ const questions = [
   {
     chapter: '4장',
     question: '하이퍼텍스트(hypertext)라는 링크 연결 문서 개념을 인터네트워크 기술에 결합한 것은?',
-    answer: '월드와이드웹 (World Wide Web, WWW)',
+    answer: '월드와이드웹 (World Wide Web/ WWW)',
   },
   {
     chapter: '4장',
@@ -400,27 +400,27 @@ const questions = [
   {
     chapter: '4장',
     question: '다음 네트워크 토폴로지는?',
-    answer: '문제에 토폴로지 그림 미제공, 예시: 스타, 버스, 링 등',
+    answer: '문제에 토폴로지 그림 미제공/ 예시: 스타/ 버스/ 링 등',
   },
   {
     chapter: '4장',
     question: '메시지 전송을 위한 다음 프로토콜은?',
-    answer: '문제에 프로토콜 미제공, 예시: SMTP, HTTP, FTP 등',
+    answer: '문제에 프로토콜 미제공/ 예시: SMTP/ HTTP/ FTP 등',
   },
   {
     chapter: '4장',
     question: '다음을 뜻하는 월드와이드웹 관련 용어는?',
-    answer: '문제에 용어 미제공, 예시: 브라우저, 웹서버 등',
+    answer: '문제에 용어 미제공/ 예시: 브라우저/ 웹서버 등',
   },
   {
     chapter: '4장',
     question: '인터넷 소프트웨어 계층 중 다음에 해당하는 계층은?',
-    answer: '문제에 계층 미제공, 예시: 응용, 전송, 네트워크, 링크, 물리 등',
+    answer: '문제에 계층 미제공/ 예시: 응용/ 전송/ 네트워크/ 링크/ 물리 등',
   },
   {
     chapter: '4장',
     question: '전송 계층에서 다음에 해당하는 프로토콜은?',
-    answer: '문제에 프로토콜 미제공, 예시: TCP, UDP 등',
+    answer: '문제에 프로토콜 미제공/ 예시: TCP/ UDP 등',
   },
   {
     chapter: '4장',
@@ -431,7 +431,7 @@ const questions = [
   {
     chapter: '4장',
     question: '사이버보안에서 다음을 의미하는 용어는?',
-    answer: '문제에 용어 미제공, 예시: 멀웨어, 랜섬웨어, 피싱 등',
+    answer: '문제에 용어 미제공/ 예시: 멀웨어/ 랜섬웨어/ 피싱 등',
   },
 ]
 
