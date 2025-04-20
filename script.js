@@ -107,6 +107,13 @@ checkAnswerButton.addEventListener('click', () => {
         markCorrectButton.classList.remove('hidden');
         markWrongButton.classList.remove('hidden');
         isAnswerRevealed = true;
+
+        // <a> 태그가 포함되어 있으면 이스케이프 처리
+if (formattedAnswer.includes('<a>')) {
+    formattedAnswer = formattedAnswer
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+}
     }
 });
 
