@@ -217,7 +217,8 @@ const questions = [
   {
     chapter: '2장',
     question: '컴퓨터 구조에서 다음의 장치는?',
-    answer: '문제에 장치 미제공/ 예시: 중앙처리장치 → CPU',
+    answer: '문제에 장치 미제공/ 예시: 중앙처리장치 → CPU, *중앙처리장치(Central Processing Unit, CPU), -데이터조작을제어하는컴퓨터회로, -연산(arithmetic/logic) 장치: 데이터에대한연산수행, -제어(control) 장치: 컴퓨터의동작조정, -레지스터(register) 장치: CPU내에서정보임시저장
+',
   },
   {
     chapter: '2장',
