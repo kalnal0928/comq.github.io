@@ -404,7 +404,7 @@ const questions = [
   {
     chapter: '4장',
     question: '메시지 전송을 위한 다음 프로토콜은?',
-    answer: '문제에 프로토콜 미제공/ 예시: SMTP/ HTTP/ FTP 등',
+    answer: '문제에 프로토콜 미제공/ 예시: SMTP/ HTTP/ FTP 등, • CSMA/CD (CD: Collision Detection): – 이더넷에서 사용/ 충돌을 탐지한 두 컴퓨터 모두 멈추고 각자 독립적으로 무작위 시간만큼 기다림, • CSMA/CA (CA: Collision Avoidance): – 모든 장비들이 서로의 신호를 확인할 수는 없는 WiFi 환경에서 사용 (은폐 단말기 문제) – 이미 대기 중인 컴퓨터에 우선권 부여',
   },
   {
     chapter: '4장',
