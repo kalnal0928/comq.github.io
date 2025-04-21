@@ -419,7 +419,7 @@ const questions = [
   {
     chapter: '4장',
     question: '전송 계층에서 다음에 해당하는 프로토콜은?',
-    answer: '문제에 프로토콜 미제공/ 예시: TCP/ UDP 등',
+    answer: '문제에 프로토콜 미제공/ 예시: TCP/ UDP 등, • TCP (Transmission Control Protocol) – 연결형. 신뢰성 높고, 효율성 낮음 (등기우편), • UDP (User Datagram Protocol) – 비연결형. 효율성 높고, 신뢰성 낮음 (일반우편) ',
   },
   {
     chapter: '4장',
