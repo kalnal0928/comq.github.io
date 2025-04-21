@@ -399,7 +399,7 @@ const questions = [
   {
     chapter: '4장',
     question: '다음 네트워크 토폴로지는?',
-    answer: '문제에 토폴로지 그림 미제공/ 예시: 스타/ 버스/ 링 / 메쉬/ ad hoc/  infrastructure 등, • 스타(star): • 1970년대의 중앙 컴퓨터 패러다임 기반/ • 통신 조정하는 중앙의 AP(Access Point), • 버스(bus):  • 버스라고 불리는 공통 통신회선에 연결/ • 이더넷(ethernet) 표준으로 구현/ • 1990년대 보급',
+    answer: '문제에 토폴로지 그림 미제공/ 예시: 스타/ 버스/ 링 / 메쉬/ ad hoc/  infrastructure 등, * 스타(star): • 1970년대의 중앙 컴퓨터 패러다임 기반/ • 통신 조정하는 중앙의 AP(Access Point), * 버스(bus):  • 버스라고 불리는 공통 통신회선에 연결/ • 이더넷(ethernet) 표준으로 구현/ • 1990년대 보급',
   },
 {
   chapter: '4장',
