@@ -409,7 +409,7 @@ const questions = [
   {
     chapter: '4장',
     question: '다음을 뜻하는 월드와이드웹 관련 용어는?',
-    answer: '문제에 용어 미제공/ 예시: 브라우저/ 웹서버 등, - 브라우저(browser): 하이퍼텍스트 페이지를 보여줌, - 웹서버(web server): 하이퍼텍스트 페이지를 제공함, - 문서: URL(Uniform Resource Locator)로 식별하며, HTTP(Hypertext Transfer Protocol)를 사용하여 전송',
+    answer: '문제에 용어 미제공/ 예시: 브라우저/ 웹서버 등, - 브라우저(browser): 하이퍼텍스트 페이지를 보여줌, - 웹서버(web server): 하이퍼텍스트 페이지를 제공함, - 문서: URL(Uniform Resource Locator)로 식별하며 HTTP(Hypertext Transfer Protocol)를 사용하여 전송',
   },
   {
     chapter: '4장',
